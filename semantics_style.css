@@ -1,3 +1,4 @@
+/* Default style */
 body {
     margin: 10px;
     background-color: black;
@@ -20,6 +21,7 @@ header {
     padding-left: 2cm;
 }
 
+/* horizontal navigation bar */
 nav {
     float: right;
     padding-right: 1cm;
@@ -40,6 +42,7 @@ nav button:hover {
     background-color: purple;
 }
 
+/* panel */
 #all-conversion-sections {
     display: grid;
     justify-content: center;
@@ -61,6 +64,7 @@ nav button:hover {
     text-align: center;
 }
 
+/* conversion buttons */
 #all-conversion-sections button {
     font-size: 20px;
     border: transparent;
@@ -107,6 +111,7 @@ legend {
     font-weight: bolder; 
 }
 
+/* home icon (back to top) */
 .iconbutton {
     width: 40px;
     height: 40px;
